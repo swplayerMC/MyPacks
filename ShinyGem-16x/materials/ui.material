@@ -1,0 +1,2 @@
+/*Made By ELWAER M*/{"materials": {"version": "1.0.0","ui_crosshair:ui_base": {"vertexShader": "shaders/uv.vertex","vrGeometryShader": "shaders/uv.geometry","fragmentShader": "shaders/texture.fragment","vertexFields": [{ "field": "Position" },{ "field": "UV0" }]}}}/*Made By ELWAER M*/
+/*It makes colored crosshair work*/

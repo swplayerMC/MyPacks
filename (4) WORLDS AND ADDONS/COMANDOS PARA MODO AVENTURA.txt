@@ -1,0 +1,9 @@
+COMO OBTER FERRAMENTAS QUE PODEM QUEBRAR BLOCOS  ESPECIFICOS NO MODO AVENTURA:
+
+/give @p ITEM 1 0 {"minecraft:can_destroy":{"blocks":["BLOCO"]}}
+
+
+
+COMO OBTER BLOCOS QUE PODEM SER COLOCADOS EM BLOCOS ESPECIFICOS NO MODO AVENTURA
+
+/give @p BLOCO 1 0 {"minecraft:can_place_on":{"blocks":["BLOCO"]}}

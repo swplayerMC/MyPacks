@@ -1,0 +1,32 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Makes Touch Buttons invisible (Old Controls, 1.19 Controls and 1.21 Old Controls Remake",
+        "name": "Invisible Touch GUI",
+        "uuid": "4e560399-ac71-44b3-146d-f2f493a94ebf",
+        "version": [1, 0, 0],
+        "min_engine_version": [ 1, 21, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Makes Touch Buttons invisible (Old Controls, 1.19 Controls and 1.21 Old Controls Remake",
+            "type": "resources",
+            "uuid": "83661142-8267-1573-9462-eb83572f2567",
+            "version": [1, 0, 0]
+        }
+    ],
+    "settings": [
+    {
+    "type": "label",
+    "text": "Subpack Information:"
+    },
+    {
+    "type": "label",
+    "text": "§bDefault§r: does §4not§r affect the §anew§r pick block and touch menu buttons."
+    },
+    {
+    "type": "label",
+    "text": "§vFully Invisible§r: makes touch HUD completely invisible"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+Minecraft Text colors
+
+Text colors
+§0	Changes text to Black
+§1	Changes text to Dark Blue
+§2	Changes text to Dark Green
+§3	Changes text to Dark Aqua
+§4	Changes text to Dark Red
+§5	Changes text to Dark Purple
+§6	Changes text to Gold
+§7	Changes text to Gray
+§8	Changes text to Dark Gray
+§9	Changes text to Blue
+§a	Changes text to Green
+§b	Changes text to Aqua
+§c	Changes text to Red
+§d	Changes text to Light Purple
+§e	Changes text to Yellow
+§f	Changes text to White
+§g	Changes text to Minecoin Gold
+
+Letters format
+§k	Obfuscated
+§l	Bold
+§o	Italic
+§r	Reset to the default

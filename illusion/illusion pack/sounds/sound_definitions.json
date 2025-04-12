@@ -1,0 +1,18 @@
+{
+   "Die": {
+     "sounds": [
+     "sounds/new/die"
+   ]
+  },
+  "game.player.die": {
+    "category": "player",
+    "sounds": [
+      "sounds/new/die",
+      {
+        "name": "sounds/new/die",
+        "load_on_low_memory": false
+      },
+      "sounds/new/die"
+    ]
+ }
+}

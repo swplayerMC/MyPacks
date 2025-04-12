@@ -1,0 +1,11 @@
+cba2ff
+5845ee
+755cf2
+9274f7
+ae8bfb
+cba2ff
+
+
+
+Para escurecer bordas:
+efeitos: saturação=100 ; lightness=-10 (Pixel Studio)

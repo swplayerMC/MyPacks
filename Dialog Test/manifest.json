@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Just testing...",
+        "name": "Dialog Test",
+        "uuid": "de030fd9-9687-4ed0-b96d-3fd5591dff8f",
+        "version": [0, 0, 1],
+        "min_engine_version": [ 1, 20, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Just testing...",
+            "type": "resources",
+            "uuid": "711ef609-6ad1-4303-93f2-385ff0fc017c",
+            "version": [0, 0, 1]
+        }
+    ]
+}

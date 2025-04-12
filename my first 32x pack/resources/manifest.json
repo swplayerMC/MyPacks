@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "§aI created this texture for playing on §eHIVE §aand §6ZEQA§a. §bAnd pls, §4SUBSCRIBE ON MY CHANNEL! §9It's §dswplayerMC§9! by §6swplayerMC",
+    "name": "§eswplayerMC§4's §bdefault §8(32x)",
+    "uuid": "91c4fc50-5a8a-4db2-9df8-4be27e62f9c6",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      16,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "§aI created this texture for playing on §eHIVE §aand §6ZEQA§a. §bAnd pls, §4SUBSCRIBE ON MY CHANNEL! §9It's §dswplayerMC§9! by §6swplayerMC",
+      "type": "resources",
+      "uuid": "29f5a410-2535-4b4d-8793-077c657c9621",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}
