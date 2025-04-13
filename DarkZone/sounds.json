@@ -1,0 +1,35 @@
+ { 
+    "lightning_bolt" : 
+      { "events" : 
+              { 
+                "explode" : { 
+                     "pitch" : [ 0.30, 0.70 ], 
+                     "sound" : "ambient.weather.lightning.impact" 
+                      }, 
+                "thunder" : { 
+                     "pitch" : [ 0.60, 1.0 ], 
+                     "sound" : "ambient.weather.thunder"
+                      }
+               }, 
+         "volume" : 250.0 
+      },
+      "player" : {
+          "events" : {
+               "attack.nodamage" : "game.player.attack.nodamage",
+               "attack.strong" : "game.player.attack.strong",
+               "death" : "game.player.die",
+               "death.in.water" : "game.player.die",
+               "elderguardian.curse" : {
+                  "pitch" : 1.0,
+                  "sound" : "mob.elderguardian.curse",
+                  "volume" : 1.0
+               },
+               "hurt" : "game.player.hurt",
+               "hurt.in.water" : "game.player.hurt",
+               "splash" : {
+                  "pitch" : [ 0.60, 1.40 ],
+                  "sound" : "entity.generic.splash"
+               },
+          }
+      }
+}

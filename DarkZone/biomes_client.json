@@ -1,0 +1,429 @@
+{
+   "biomes" : {
+      "bamboo_jungle" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#00b0ff"
+      },
+      "bamboo_jungle_hills" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#00b0ff"
+      },
+      "basalt_deltas" : {
+         "fog_identifier" : "skye:custom_fog_basalt_deltas",
+         "fog_ids_to_merge" : [ "skye:custom_fog_basalt_deltas" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "beach" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "birch_forest" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "birch_forest_hills" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "cold_beach" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "cold_ocean" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "cold_taiga" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "cold_taiga_hills" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "cold_taiga_mutated" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "crimson_forest" : {
+         "fog_identifier" : "skye:custom_fog_crimson_forest",
+         "fog_ids_to_merge" : [ "skye:custom_fog_crimson_forest" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "deep_cold_ocean" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "deep_frozen_ocean" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "deep_lukewarm_ocean" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "deep_ocean" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "deep_warm_ocean" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#00f0ff"
+      },
+      "default" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "remove_all_prior_fog" : false,
+         "water_surface_color" : "#3b89fe",
+         "water_surface_transparency" : 0.90
+      },
+      "desert" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#00b0ff"
+      },
+      "desert_hills" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#00b0ff"
+      },
+      "extreme_hills" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "extreme_hills_edge" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "extreme_hills_mutated" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "extreme_hills_plus_trees" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "extreme_hills_plus_trees_mutated" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "flower_forest" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "forest" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "forest_hills" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "frozen_ocean" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "frozen_river" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "hell" : {
+         "fog_identifier" : "skye:custom_fog_hell",
+         "fog_ids_to_merge" : [ "skye:custom_fog_hell" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#00b0ff"
+      },
+      "ice_mountains" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "ice_plains" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "ice_plains_spikes" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "jungle" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#00b0ff"
+      },
+      "jungle_edge" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#00b0ff"
+      },
+      "jungle_hills" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#00b0ff"
+      },
+      "jungle_mutated" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#00b0ff"
+      },
+      "lukewarm_ocean" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "mangrove_swamp" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "mega_spruce_taiga" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "mega_spruce_taiga_mutated" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "mega_taiga" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "mega_taiga_hills" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "mega_taiga_mutated" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "mesa" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "mesa_bryce" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "mesa_mutated" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "mesa_plateau" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "mesa_plateau_stone" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "mushroom_island" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "mushroom_island_shore" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "ocean" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "plains" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "river" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "roofed_forest" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "savanna" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "savanna_mutated" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "savanna_plateau" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "soulsand_valley" : {
+         "fog_identifier" : "skye:custom_fog_soulsand_valley",
+         "fog_ids_to_merge" : [ "skye:custom_fog_soulsand_valley" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#00b0ff"
+      },
+      "stone_beach" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "sunflower_plains" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "swampland" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#36a5d3",
+         "water_surface_transparency" : 0.95
+      },
+      "swampland_mutated" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#36a5d3",
+         "water_surface_transparency" : 0.95
+      },
+      "taiga" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "taiga_hills" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "taiga_mutated" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "the_end" : {
+         "fog_identifier" : "skye:custom_fog_the_end",
+         "fog_ids_to_merge" : [ "skye:custom_fog_the_end" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      },
+      "warm_ocean" : {
+         "fog_identifier" : "skye:custom_fog_default",
+         "fog_ids_to_merge" : [ "skye:custom_fog_default" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#00b0ff",
+         "water_surface_transparency" : 0.80
+      },
+      "warped_forest" : {
+         "fog_identifier" : "skye:custom_fog_warped_forest",
+         "fog_ids_to_merge" : [ "skye:custom_fog_warped_forest" ],
+         "inherit_from_prior_fog" : false,
+         "water_surface_color" : "#3b89fe"
+      }
+   }
+}

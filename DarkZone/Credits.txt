@@ -1,0 +1,5 @@
+FOG settings from Skye Graphics pack
+1x1 block textures from One Pixeled Texture pack
+JSONs in "particles" folder in "max" subpack are from Particle Disabler by ambient
+those .material in "materials" folder are not mine
+the sounds in "sounds" folder (except "custom" and "damage" folders) are not mine

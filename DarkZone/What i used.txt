@@ -1,0 +1,10 @@
+Apps used:
+Pixel Studio (Mobile pixel art editor and maker)
+Paint.net (its a better version of paint from wimdows)
+Quick Edit (mobile text editor)
+Acode (Coding app like VS Code but on mobile)
+Zarquiver
+Shizuku (i used it to be able to navigate in com.mojang folder on my phone)
+Grok (was a very useful tool, i learned a lot of things with it)
+Termux (to use GitHub on mobile)
+And of course Minecraft

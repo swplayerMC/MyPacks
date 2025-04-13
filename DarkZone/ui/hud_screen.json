@@ -1,0 +1,48 @@
+{
+	"namespace": "hud",
+	
+	"hud_content": {  
+		"type": "panel",
+		"$hud_size": [
+			"100%",
+			"100%"
+		],
+			{
+				"chat_panel@hud.chat_panel": {
+				"layer": 1336,
+				"clips_children": true,
+				"anchor_from": "bottom_left",
+				"anchor_to": "bottom_left",
+				"visible": true, 
+				"size": [ "40%", "40%" ],
+				"offset": [ 0, -40 ]
+				}
+			}
+	},
+	"chat_panel": {
+    "type": "panel",
+	"visible": false, 
+	"clips_children": true,
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "size": [ "100%", "100%c" ],
+    "max_size": [ "100%", "50%" ],
+
+    "controls": [
+      {
+        "stack_panel": {
+          "type": "stack_panel",
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "factory": {
+            "name": "chat_item_factory",
+            "max_children_size": 50,
+            "control_ids": {
+              "chat_item": "chat_item@hud.chat_grid_item"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

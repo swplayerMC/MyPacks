@@ -1,5 +1,112 @@
 {
 	"namespace": "hud",
+	"hud_screen@common.base_screen": {
+		"is_showing_menu": false,
+		"should_steal_mouse": true,
+		"low_frequency_rendering": true,
+		"absorbs_input": false,
+		"send_telemetry": false,
+		"$screen_animations": [
+			"@common.screen_exit_animation_push_fade",
+			"@common.screen_exit_animation_pop_fade",
+			"@common.screen_entrance_animation_push_fade",
+			"@common.screen_entrance_animation_pop_fade"
+		],
+		"button_mappings": [
+			{
+				"from_button_id": "button.scoreboard",
+				"to_button_id": "button.scoreboard",
+				"mapping_type": "global"
+			},
+			{
+				"from_button_id": "button.inventory_left",
+				"to_button_id": "button.hotbar_inventory_left",
+				"mapping_type": "global"
+			},
+			{
+				"from_button_id": "button.inventory_right",
+				"to_button_id": "button.hotbar_inventory_right",
+				"mapping_type": "global"
+			},
+			{
+				"from_button_id": "button.hide_gui",
+				"to_button_id": "button.hide_gui_all",
+				"mapping_type": "global"
+			},
+			{
+				"from_button_id": "button.hide_tooltips",
+				"to_button_id": "button.hide_tooltips_hud",
+				"mapping_type": "global"
+			},
+			{
+				"from_button_id": "button.hide_paperdoll",
+				"to_button_id": "button.hide_paperdoll_hud",
+				"mapping_type": "global"
+			},
+			{
+				"from_button_id": "button.slot1",
+				"to_button_id": "button.slot_1",
+				"mapping_type": "global"
+			},
+			{
+				"from_button_id": "button.slot2",
+				"to_button_id": "button.slot_2",
+				"mapping_type": "global"
+			},
+			{
+				"from_button_id": "button.slot3",
+				"to_button_id": "button.slot_3",
+				"mapping_type": "global"
+			},
+			{
+				"from_button_id": "button.slot4",
+				"to_button_id": "button.slot_4",
+				"mapping_type": "global"
+			},
+			{
+				"from_button_id": "button.slot5",
+				"to_button_id": "button.slot_5",
+				"mapping_type": "global"
+			},
+			{
+				"from_button_id": "button.slot6",
+				"to_button_id": "button.slot_6",
+				"mapping_type": "global"
+			},
+			{
+				"from_button_id": "button.slot7",
+				"to_button_id": "button.slot_7",
+				"mapping_type": "global"
+			},
+			{
+				"from_button_id": "button.slot8",
+				"to_button_id": "button.slot_8",
+				"mapping_type": "global"
+			},
+			{
+				"from_button_id": "button.slot9",
+				"to_button_id": "button.slot_9",
+				"mapping_type": "global"
+			},
+			{
+				"from_button_id": "button.slot0",
+				"to_button_id": "button.slot_0",
+				"mapping_type": "global"
+			}
+		],
+		"$screen_content": "hud.hud_content"
+		//"$screen_content": "hud.hud_overwrite"
+	}, 
+	/*
+	"hud_overwrite": {
+		"type": "panel",
+		"controls": [
+			{
+				"hud_content@hud.hud_content": {}
+			},
+		]
+	},
+	*/
 	
 	"hud_content": {  
 		"type": "panel",
@@ -7,6 +114,35 @@
 			"100%",
 			"100%"
 		],
+		"$hud_player_rend_desktop_offset|default": [
+		 15,
+			15
+			
+		],
+		"variables": [
+			{
+				"requires": "($is_holographic and not $is_living_room_mode)",
+				"$hud_player_rend_desktop_offset": [
+					100,
+					50
+				]
+			},
+			{
+				"requires": "($compress_hud_width)",
+				"$hud_size": [
+					"100%",
+					"100%"
+				]
+			}
+		],
+		"size": "$hud_size",
+		"controls": [
+			{
+				"root_panel@hud.root_panel": {}
+			},
+			{
+				"camera_renderer@camera_renderer": {}
+			},
 			{
 				"chat_panel@hud.chat_panel": {
 				"layer": 1336,
@@ -18,13 +154,14 @@
 				"offset": [ 0, -40 ]
 				}
 			}
+		]
 	},
 	"chat_panel": {
     "type": "panel",
 	"visible": false, 
 	"clips_children": true,
-    "anchor_from": "bottom_left",
-    "anchor_to": "bottom_left",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
     "size": [ "100%", "100%c" ],
     "max_size": [ "100%", "50%" ],
 
