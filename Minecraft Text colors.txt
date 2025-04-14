@@ -18,9 +18,11 @@ Text colors
 §e	Changes text to Yellow
 §f	Changes text to White
 §g	Changes text to Minecoin Gold
+§v  Changes text to Orange
 
 Letters format
 §k	Obfuscated
 §l	Bold
 §o	Italic
 §r	Reset to the default
+
