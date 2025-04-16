@@ -283,5 +283,5 @@
   "$rarity_uncommon_bg_color": [ 0.33, 0.66, 0.42, 0.4 ],
   "$rarity_rare_bg_color": [ 0.10, 0.25, 0.61, 0.4 ],
   "$rarity_epic_bg_color": [ 0.36, 0.18, 0.40, 0.4 ],
-  "$rarity_legendary_bg_color": [ 0.36, 0.32, 0.06, 0.4 ],
+  "$rarity_legendary_bg_color": [ 0.36, 0.32, 0.06, 0.4 ]
 }
