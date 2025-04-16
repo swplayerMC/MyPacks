@@ -4,7 +4,7 @@
         "description": "Work in progress...",
         "name": "§l§aShinyGem§r §l[§r §b16§7x§r §l]§r",
         "uuid": "95fd7877-165a-4ba4-90b0-4cd800e64118",
-        "version": [1, 0, 1],
+        "version": [1, 0, 4],
         "min_engine_version": [ 1, 21, 0 ]
     },
     "modules": [
@@ -12,7 +12,7 @@
             "description": "Work in progress...",
             "type": "resources",
             "uuid": "cd998e91-3855-4bc4-9fd6-6d880e3e0ace",
-            "version": [1, 0, 1]
+            "version": [1, 0, 4]
         }
     ],
     "subpacks": [
