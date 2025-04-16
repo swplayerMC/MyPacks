@@ -29,7 +29,7 @@
                "splash" : {
                   "pitch" : [ 0.60, 1.40 ],
                   "sound" : "entity.generic.splash"
-               },
+               }
           }
       }
 }
