@@ -1,0 +1,311 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "planks": {
+      "textures": [
+        "textures/blocks/planks_oak",
+        "textures/blocks/planks_spruce",
+        "textures/blocks/planks_birch",
+        "textures/blocks/planks_jungle",
+        "textures/blocks/planks_acacia",
+        "textures/blocks/planks_big_oak"
+      ]
+    },
+    "iron_block": {
+      "textures": "textures/blocks/iron_block"
+    },
+    "gold_block": {
+      "textures": "textures/blocks/gold_block"
+    },
+    "diamond_block": {
+      "textures": "textures/blocks/diamond_block"
+    },
+    "coal_block": {
+      "textures": "textures/blocks/coal_block"
+    },
+    "lapis_block": {
+      "textures": "textures/blocks/lapis_block"
+    },
+    "emerald_block": {
+      "textures": "textures/blocks/emerald_block"
+    },
+    "redstone_block": {
+      "textures": "textures/blocks/redstone_block"
+    },
+    "gold_ore": {
+      "textures": "textures/blocks/gold_ore"
+    },
+    "iron_ore": {
+      "textures": "textures/blocks/iron_ore"
+    },
+    "coal_ore": {
+      "textures": "textures/blocks/coal_ore"
+    },
+    "lapis_ore": {
+      "textures": "textures/blocks/lapis_ore"
+    },
+    "diamond_ore": {
+      "textures": "textures/blocks/diamond_ore"
+    },
+    "redstone_ore": {
+      "textures": "textures/blocks/redstone_ore"
+    },
+    "emerald_ore": {
+      "textures": "textures/blocks/emerald_ore"
+    },
+    "furnace": {
+      "textures": [
+        "textures/blocks/furnace_front_off",
+        "textures/blocks/furnace_front_on",
+        "textures/blocks/furnace_side",
+        "textures/blocks/furnace_top"
+      ]
+    },
+    "furnace_front": {
+      "textures": [
+        "textures/blocks/furnace_front_off",
+        "textures/blocks/furnace_front_on"
+      ]
+    },
+    "furnace_front_off": {
+      "textures": "textures/blocks/furnace_front_off"
+    },
+    "furnace_front_on": {
+      "textures": "textures/blocks/furnace_front_on"
+    },
+    "furnace_top": {
+      "textures": [
+        "textures/blocks/furnace_top",
+        "textures/blocks/furnace_top"
+      ]
+    },
+    "furnace_side": {
+      "textures": [
+        "textures/blocks/furnace_side",
+        "textures/blocks/furnace_side"
+      ]
+    },
+    "destroy": {
+      "textures": [
+        "textures/environment/destroy_stage_0",
+        "textures/environment/destroy_stage_1",
+        "textures/environment/destroy_stage_2",
+        "textures/environment/destroy_stage_3",
+        "textures/environment/destroy_stage_4",
+        "textures/environment/destroy_stage_5",
+        "textures/environment/destroy_stage_6",
+        "textures/environment/destroy_stage_7",
+        "textures/environment/destroy_stage_8",
+        "textures/environment/destroy_stage_9"
+      ]
+    },
+    "chest_inventory": {
+      "textures": [
+        "textures/blocks/chest_top",
+        "textures/blocks/chest_side",
+        "textures/blocks/chest_front"
+      ]
+    },
+    "chest_inventory_top": {
+      "textures": [
+        "textures/blocks/chest_top"
+      ]
+    },
+    "chest_inventory_side": {
+      "textures": [
+        "textures/blocks/chest_side"
+      ]
+    },
+    "chest_inventory_front": {
+      "textures": [
+        "textures/blocks/chest_front"
+      ]
+    },
+    "trapped_chest_inventory_front": {
+      "textures": [
+        "textures/blocks/trapped_chest_front"
+      ]
+    },
+    "ender_chest_inventory_top": {
+      "textures": [
+        "textures/blocks/ender_chest_top"
+      ]
+    },
+    "ender_chest_inventory_side": {
+      "textures": [
+        "textures/blocks/ender_chest_side"
+      ]
+    },
+    "ender_chest_inventory_front": {
+      "textures": [
+        "textures/blocks/ender_chest_front"
+      ]
+    },
+    "flowing_water_grey": {
+      "quad": 1,
+      "textures": "textures/blocks/water_flow_grey"
+    },
+    "flowing_water": {
+      "quad": 1,
+      "textures": "textures/blocks/water_flow"
+    },
+    "flowing_lava": {
+      "quad": 1,
+      "textures": "textures/blocks/lava_flow"
+    },
+    "wool": {
+      "textures": [
+        "textures/blocks/wool_colored_white",
+        "textures/blocks/wool_colored_orange",
+        "textures/blocks/wool_colored_magenta",
+        "textures/blocks/wool_colored_light_blue",
+        "textures/blocks/wool_colored_yellow",
+        "textures/blocks/wool_colored_lime",
+        "textures/blocks/wool_colored_pink",
+        "textures/blocks/wool_colored_gray",
+        "textures/blocks/wool_colored_silver",
+        "textures/blocks/wool_colored_cyan",
+        "textures/blocks/wool_colored_purple",
+        "textures/blocks/wool_colored_blue",
+        "textures/blocks/wool_colored_brown",
+        "textures/blocks/wool_colored_green",
+        "textures/blocks/wool_colored_red",
+        "textures/blocks/wool_colored_black"
+      ]
+    },
+    "still_water_grey": {
+      "textures": "textures/blocks/water_still_grey"
+    },
+    "still_water": {
+      "textures": "textures/blocks/water_still"
+    },
+    "still_lava": {
+      "textures": "textures/blocks/lava_still"
+    },
+    "portal": {
+      "textures": "textures/blocks/portal"
+    },
+    "concrete": {
+      "textures": [
+        "textures/blocks/concrete_white",
+        "textures/blocks/concrete_orange",
+        "textures/blocks/concrete_magenta",
+        "textures/blocks/concrete_light_blue",
+        "textures/blocks/concrete_yellow",
+        "textures/blocks/concrete_lime",
+        "textures/blocks/concrete_pink",
+        "textures/blocks/concrete_gray",
+        "textures/blocks/concrete_silver",
+        "textures/blocks/concrete_cyan",
+        "textures/blocks/concrete_purple",
+        "textures/blocks/concrete_blue",
+        "textures/blocks/concrete_brown",
+        "textures/blocks/concrete_green",
+        "textures/blocks/concrete_red",
+        "textures/blocks/concrete_black"
+      ]
+    },
+    "andesite": {
+      "textures": "textures/blocks/stone_andesite"
+    },
+    "wool_colored_white": {
+      "textures": "textures/blocks/wool_colored_white"
+    },
+    "wool_colored_orange": {
+      "textures": "textures/blocks/wool_colored_orange"
+    },
+    "wool_colored_magenta": {
+      "textures": "textures/blocks/wool_colored_magenta"
+    },
+    "wool_colored_light_blue": {
+      "textures": "textures/blocks/wool_colored_light_blue"
+    },
+    "wool_colored_yellow": {
+      "textures": "textures/blocks/wool_colored_yellow"
+    },
+    "wool_colored_lime": {
+      "textures": "textures/blocks/wool_colored_lime"
+    },
+    "wool_colored_pink": {
+      "textures": "textures/blocks/wool_colored_pink"
+    },
+    "wool_colored_gray": {
+      "textures": "textures/blocks/wool_colored_gray"
+    },
+    "wool_colored_silver": {
+      "textures": "textures/blocks/wool_colored_silver"
+    },
+    "wool_colored_cyan": {
+      "textures": "textures/blocks/wool_colored_cyan"
+    },
+    "wool_colored_purple": {
+      "textures": "textures/blocks/wool_colored_purple"
+    },
+    "wool_colored_blue": {
+      "textures": "textures/blocks/wool_colored_blue"
+    },
+    "wool_colored_brown": {
+      "textures": "textures/blocks/wool_colored_brown"
+    },
+    "wool_colored_green": {
+      "textures": "textures/blocks/wool_colored_green"
+    },
+    "wool_colored_red": {
+      "textures": "textures/blocks/wool_colored_red"
+    },
+    "wool_colored_black": {
+      "textures": "textures/blocks/wool_colored_black"
+    },
+    "white_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_white"
+    },
+    "orange_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_orange"
+    },
+    "magenta_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_magenta"
+    },
+    "light_blue_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_light_blue"
+    },
+    "yellow_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_yellow"
+    },
+    "lime_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_lime"
+    },
+    "pink_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_pink"
+    },
+    "gray_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_gray"
+    },
+    "light_gray_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_silver"
+    },
+    "cyan_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_cyan"
+    },
+    "purple_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_purple"
+    },
+    "blue_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_blue"
+    },
+    "brown_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_brown"
+    },
+    "green_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_green"
+    },
+    "red_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_red"
+    },
+    "black_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_black"
+    }
+  }
+}

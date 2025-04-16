@@ -2,43 +2,35 @@
     "format_version": 2,
     "header": {
         "description": "Work in progress...",
-        "name": "§l§aShinyGem§r §l[§r §b16§7x§r §l]§r",
+        "name": "!DarkZone",
         "uuid": "95fd7877-165a-4ba4-90b0-4cd800e64118",
-        "version": [1, 0, 1],
-        "min_engine_version": [ 1, 21, 0 ]
+        "version": [0, 0, 1],
+        "min_engine_version": [ 1, 21, 0 ],
+        "pack_scope": "global"
     },
     "modules": [
         {
-            "description": "Work in progress...",
+            "description": "Some sources like the ui.material/ui3d.material are from other packs made by other people",
             "type": "resources",
             "uuid": "cd998e91-3855-4bc4-9fd6-6d880e3e0ace",
-            "version": [1, 0, 1]
+            "version": [0, 0, 1]
         }
     ],
-    "subpacks": [
-    {
-      "folder_name": "default",
-      "name": "§bDefault §r",
-      "memory_tier": 1
-     },
-     {
-      "folder_name": "max",
-      "name": "§vMax §cPerformance §r",
-      "memory_tier": 1
-     }
-   ],
-   "metadata": {
-    "authors": [ "@swplayerMC" ],
-    "license": "This pack is a mix of other packs, some sources like the 1x1 blocks, fogs and ui.material/ui3d.material are from other packs made by other people"
-  },
+    "metadata": [
+      {
+        "authors": [ "@swplayerMC" ],
+        "license": "I don't even know how to put any license, bruh",
+        "url": "https://www.youtube.com/@swplayerMC"
+      }
+    ],
   "settings": [
     {
       "type": "label",
-      "text": "Subpack Information:"
+      "text": "This is my first PURPLE/PINK themed texture pack!"
     },
     {
       "type": "label",
-      "text": "- §vMax §cPerformance §ris recommended for §l§4lower end§r devices."
+      "text": "The diamond sword in this one is just perfect..."
     }
   ]
 }
