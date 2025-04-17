@@ -3,7 +3,7 @@
     "header": {
         "description": "Work in progress...",
         "name": "!DarkZone",
-        "uuid": "478c7758-f0c9-4481-8e28-9883acad57e5",
+        "uuid": "e243635b-078e-480a-a58a-363745a872dc",
         "version": [0, 0, 1],
         "min_engine_version": [ 1, 21, 0 ],
         "pack_scope": "global"
@@ -12,9 +12,15 @@
         {
             "description": "Some sources like the ui.material/ui3d.material are from other packs made by other people",
             "type": "resources",
-            "uuid": "ceac0e9b-0933-413f-b9aa-0f2998fd8912",
+            "uuid": "ecadd490-4d98-4b5e-99eb-914017513190",
             "version": [0, 0, 1]
         }
+    ],
+    "dependencies": [
+      {
+        "uuid": "478c7758-f0c9-4481-8e28-9883acad57e5",
+        "version": [ 1, 0, 0 ]
+      }
     ],
     "metadata": [
       {
@@ -26,11 +32,14 @@
   "settings": [
     {
       "type": "label",
-      "text": "This is my first PURPLE/PINK themed texture pack!"
+      "text": "This is an extention for !DarkZone pack"
     },
     {
       "type": "label",
-      "text": "The diamond sword in this one is just perfect..."
+      "text": "It adds customized fogs! :D"
+    },
+    {
+      "priority": "high"
     }
   ]
 }
