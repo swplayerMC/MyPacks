@@ -3,7 +3,7 @@
     "header": {
         "description": "Work in progress...",
         "name": "!DarkZone",
-        "uuid": "95fd7877-165a-4ba4-90b0-4cd800e64118",
+        "uuid": "478c7758-f0c9-4481-8e28-9883acad57e5",
         "version": [0, 0, 1],
         "min_engine_version": [ 1, 21, 0 ],
         "pack_scope": "global"
@@ -12,7 +12,7 @@
         {
             "description": "Some sources like the ui.material/ui3d.material are from other packs made by other people",
             "type": "resources",
-            "uuid": "cd998e91-3855-4bc4-9fd6-6d880e3e0ace",
+            "uuid": "ceac0e9b-0933-413f-b9aa-0f2998fd8912",
             "version": [0, 0, 1]
         }
     ],
