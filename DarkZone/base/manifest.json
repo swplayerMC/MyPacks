@@ -31,6 +31,10 @@
     {
       "type": "label",
       "text": "The diamond sword in this one is just perfect..."
+    },
+    {
+      "show_in_menu": true,
+      "auto_apply": true
     }
   ]
 }

@@ -1,20 +1,26 @@
 {
     "format_version": 2,
     "header": {
-        "description": "Work in progress...",
-        "name": "!DarkZone",
-        "uuid": "478c7758-f0c9-4481-8e28-9883acad57e5",
-        "version": [0, 0, 1],
+        "description": "Use this if you want custom sounds for PvP or just don't like the default sounds",
+        "name": "!DZ Custom Sounds",
+        "uuid": "edf25daf-43f4-4a02-a6b9-1e2a6af6c07c",
+        "version": [1, 0, 0],
         "min_engine_version": [ 1, 21, 0 ],
         "pack_scope": "global"
     },
     "modules": [
         {
-            "description": "Some sources like the ui.material/ui3d.material are from other packs made by other people",
+            "description": "Some sounds are from other packs. Like PvP Sounds by anmbient",
             "type": "resources",
-            "uuid": "ceac0e9b-0933-413f-b9aa-0f2998fd8912",
-            "version": [0, 0, 1]
+            "uuid": "2fc96f5c-808c-47cc-96a3-f7cc8b24cedc",
+            "version": [1, 0, 0]
         }
+    ],
+    "dependencies": [
+      {
+        "uuid": "478c7758-f0c9-4481-8e28-9883acad57e5",
+        "version": [ 1, 0, 0 ]
+      }
     ],
     "metadata": [
       {
@@ -23,14 +29,14 @@
         "url": "https://www.youtube.com/@swplayerMC"
       }
     ],
-  "settings": [
-    {
-      "type": "label",
-      "text": "This is my first PURPLE/PINK themed texture pack!"
-    },
-    {
-      "type": "label",
-      "text": "The diamond sword in this one is just perfect..."
-    }
-  ]
+    "settings": [
+      {
+        "type": "label",
+        "text": "This is an extention for !DarkZone pack"
+      },
+      {
+        "type": "label",
+        "text": "It adds custom sounds :D"
+      }
+   ]
 }
