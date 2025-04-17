@@ -1,0 +1,36 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Work in progress...",
+        "name": "!DarkZone",
+        "uuid": "478c7758-f0c9-4481-8e28-9883acad57e5",
+        "version": [1, 0, 0],
+        "min_engine_version": [ 1, 21, 0 ],
+        "pack_scope": "global"
+    },
+    "modules": [
+        {
+            "description": "Some sources like the ui.material/ui3d.material are from other packs made by other people",
+            "type": "resources",
+            "uuid": "ceac0e9b-0933-413f-b9aa-0f2998fd8912",
+            "version": [1, 0, 0]
+        }
+    ],
+    "metadata": [
+      {
+        "authors": [ "@swplayerMC" ],
+        "license": "I don't even know how to put any license, bruh",
+        "url": "https://www.youtube.com/@swplayerMC"
+      }
+    ],
+  "settings": [
+    {
+      "type": "label",
+      "text": "This is my first PURPLE/PINK themed texture pack!"
+    },
+    {
+      "type": "label",
+      "text": "The diamond sword in this one is just perfect..."
+    }
+  ]
+}
