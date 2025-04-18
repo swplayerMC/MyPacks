@@ -2,7 +2,7 @@
     "format_version": 2,
     "header": {
         "description": "Use this if you want custom sounds for PvP or just don't like the default sounds",
-        "name": "!DZ Custom Sounds",
+        "name": "§4§o!§d§lD§9Z§8§r §8!§fCustom§b Sounds",
         "uuid": "a94698a4-d2f5-482c-83ee-55056052804a",
         "version": [1, 0, 0],
         "min_engine_version": [ 1, 21, 0 ],
@@ -32,7 +32,7 @@
     "settings": [
       {
         "type": "label",
-        "text": "This is an extention for !DarkZone pack"
+        "text": "This is an extention for §o§4!§dDark§9Zone§r pack"
       },
       {
         "type": "label",

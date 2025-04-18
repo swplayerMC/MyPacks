@@ -1,8 +1,8 @@
 {
     "format_version": 2,
     "header": {
-        "description": "Use this if you want custom sounds for PvP or just don't like the default sounds",
-        "name": "!DZ Custom Sounds",
+        "description": "Use this if you want animations in some blocks",
+        "name": "§4§o!§d§lD§9Z§8§r §c§lAnimated§r §fBlocks§r",
         "uuid": "5a79df3a-3812-4f98-a1fb-b04b04e0e941",
         "version": [1, 0, 0],
         "min_engine_version": [ 1, 21, 0 ],
@@ -10,7 +10,7 @@
     },
     "modules": [
         {
-            "description": "Some sounds are from other packs. Like PvP Sounds by anmbient",
+            "description": "Animations in blocks... very cool",
             "type": "resources",
             "uuid": "03f36ad2-92c4-4cb4-a385-440e949e9cb6",
             "version": [1, 0, 0]
@@ -32,7 +32,7 @@
     "settings": [
       {
         "type": "label",
-        "text": "This is an extention for !DarkZone pack"
+        "text": "This is an extention for §o§4!§dDark§9Zone§r pack"
       },
       {
         "type": "label",

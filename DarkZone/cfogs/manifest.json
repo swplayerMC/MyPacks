@@ -2,7 +2,7 @@
     "format_version": 2,
     "header": {
         "description": "Work in progress...",
-        "name": "!DarkZone",
+        "name": "§4§o!§r§d§l§oD§r§9§l§oZ§r§a§l Custom§r§f FOGS§r",
         "uuid": "e243635b-078e-480a-a58a-363745a872dc",
         "version": [0, 0, 1],
         "min_engine_version": [ 1, 21, 0 ],
@@ -10,7 +10,7 @@
     },
     "modules": [
         {
-            "description": "Some sources like the ui.material/ui3d.material are from other packs made by other people",
+            "description": "I used 'Stellar Graphics V2' FOG JSONs as base, but i didn't copy anything from there",
             "type": "resources",
             "uuid": "ecadd490-4d98-4b5e-99eb-914017513190",
             "version": [0, 0, 1]
@@ -32,7 +32,7 @@
   "settings": [
     {
       "type": "label",
-      "text": "This is an extention for !DarkZone pack"
+      "text": "This is an extention for §o§4!§dDark§9Zone§r pack"
     },
     {
       "type": "label",
