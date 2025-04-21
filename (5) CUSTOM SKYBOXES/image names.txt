@@ -1,0 +1,8 @@
+Image names:
+
+front: 	 cubemap_0
+right: 	 cubemap_1
+back: 	 cubemap_2
+left: 	 cubemap_3
+top: 	 cubemap_4
+bottom:  cubemap_5
